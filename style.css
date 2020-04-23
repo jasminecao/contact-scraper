@@ -1,6 +1,6 @@
 body {
-  width: 300px;
-  height: 600px;
+  width: 275px;
+  height: 450px;
   background: linear-gradient(180deg, #845EC2 0%, #0081CF 100%);
 }
 
@@ -16,23 +16,67 @@ h1 {
 }
 
 input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  width: 95%;
+  padding: 0.75em 0.75em;
+  margin: 0.5em auto;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 0px none;
   box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
+  color: #FFFFFF;
 }
 
 input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  width: 95%;
+  padding: 0.75em 0.75em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 0px none;
   box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
+  color: #FFFFFF;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: 0 0 2pt 1pt rgba(0,129,207,1);
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  width: 75%;
+  padding: 0.5em 0.5em;
+  margin: 0.5em auto;
+  display: inline-block;
+  border: 0px none;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 3px;
+  color: #845EC2;
+}
+
+button:hover {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 2pt 2pt #845EC2;
+}
+
+#login {
+  margin: 3em auto;
+  width: 95%;
 }
 
 #logo {
