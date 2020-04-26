@@ -7,20 +7,21 @@
 		"declarativeContent",
 		"storage",
 		"tabs",
-		"<all_urls>"
+		"<all_urls>",
+		"http://localhost:3000/*"
 	],
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": false
 	},
 	"browser_action": {
-    "default_icon": "Anchor.png",
+		"default_icon": "Anchor.png",
 		"default_popup": "login.html"
-  },
-  "icons": {
-    "16": "Anchor.png",
-    "48": "Anchor.png",
-    "128": "Anchor.png"
-  },
+	},
+	"icons": {
+		"16": "Anchor.png",
+		"48": "Anchor.png",
+		"128": "Anchor.png"
+	},
 	"manifest_version": 2
 }
