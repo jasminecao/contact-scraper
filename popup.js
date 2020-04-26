@@ -1,5 +1,5 @@
 document.getElementById('linkedin').addEventListener('click', () => {
-	chrome.tabs.create({
+	chrome.tabs.update({
 		active: true,
 		url:
 			'https://www.linkedin.com/search/results/people/?facetNetwork=%5B%22F%22%5D&origin=MEMBER_PROFILE_CANNED_SEARCH',
